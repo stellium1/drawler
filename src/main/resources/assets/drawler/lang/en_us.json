@@ -52,5 +52,21 @@
   "drawing.messages.no_direction": "You have to look to some direction,",
   "drawing.messages.processing_image": "Processing image, please wait...",
   "drawing.messages.start_checking": "Starting error check...",
-  "drawing.messages.resources_collected": "Resources are already found"
+  "drawing.messages.missing_items": "You are missing these items:",
+  "drawing.messages.no_image_drawing": "No image is currently being drawn.",
+  "drawing.messages.coordinates_changed": "Coordinates changed from %d to %d.",
+  "drawing.messages.cannot_unpause": "You can't unpause if nothing is being drawn.",
+  "drawing.messages.continue_drawing_from": "Continuing to draw from point &a%d.",
+  "drawing.messages.time_remaining": "Approximately &c%d hours %d minutes %d seconds remaining to draw.",
+  "drawing.messages.stopping_at_point": "Stopping at point &a%d.",
+  "drawing.messages.no_errors_complete": "No errors found! The picture is complete!",
+  "drawing.messages.error_check_complete": "Error checking is complete, %d errors found. Proceeding to correction, it will take approximately &c%d hours %d minutes %d seconds.",
+  "drawing.messages.map_issue": "There is an issue with the map",
+  "drawing.messages.items_to_collect": "Items to collect:",
+  "drawing.messages.resources_collected": "Resources are already collected.",
+  "drawing.messages.image_link_error": "Something went wrong, please check the image link.",
+  "drawing.messages.resource_list_empty": "The resource list is empty, you are not drawing anything...",
+  "drawing.messages.invalid_correction_mode": "Invalid correction mode value. Very strange...",
+  "drawing.messages.error_correction_complete": "Error correction work is complete.",
+  "drawing.messages.pixel_exh": "Pixels are exhausted or the index is too large."
 }

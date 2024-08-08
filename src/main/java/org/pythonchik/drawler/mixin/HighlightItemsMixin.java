@@ -1,10 +1,11 @@
 package org.pythonchik.drawler.mixin;
 
-
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.ingame.GenericContainerScreen;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.screen.slot.Slot;
+import net.minecraft.entity.player.PlayerEntity;
 import org.pythonchik.drawler.client.DrawlerClient;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -30,4 +31,5 @@ public class HighlightItemsMixin {
             }
         }
     }
+
 }

@@ -93,7 +93,7 @@ public class DrawlerSettings {
 
         ConfigBuilder builder = ConfigBuilder.create()
                 .setParentScreen(parent)
-                .setDefaultBackgroundTexture(Identifier.ofVanilla("textures/block/honeycomb_block.png"))
+                .setDefaultBackgroundTexture(new Identifier("minecraft", "textures/block/honeycomb_block.png"))
                 .setTitle(Text.translatableWithFallback("settings.title.main","settings"));
 
         builder.setSavingRunnable(() -> {
